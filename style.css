@@ -1,17 +1,29 @@
 @charset "utf-8";
-/*Theme Name:MT Theme
-Author: Nobu
-Description: This is my original theme.
-Cersion: 1.0
+
+/*
+Theme Name: My_Themes
+Author: kado
+Description: this is my original My_Themes
+version: 1.0
 */
 
 body{
-  font-family:'メイリオ', 'Hiragino Kaku Gothic Pro', sans-sirif
+  font-family:'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
 }
 
 /*記事*/
 article h1{
-  margin:0;
+  margin: 0;
   font-size: 32px;
   font-weight: normal;
+}
+
+/*記事の付加情報*/
+.postinfo{
+  font-size: 14px;
+}
+
+.postinfo a{
+  color: #000000;
+  text-decoration: none;
 }
