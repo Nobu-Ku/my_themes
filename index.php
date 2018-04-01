@@ -11,7 +11,15 @@
   <?php if(have_posts()): while(have_posts()): the_post(); ?>
   <article <?php post_class(); ?>
     <h1><?php the_title(); ?></h1>
-    <?php the_content(); ?>
+      <div class="postinfo">
+        <time datetime="<?php echo get_the_date('Y-m-d') ?>">
+         <?php echo get_the_date() ;?>
+        </time>
+        <span class="postcat">
+         <?php the_category(); ?>
+        </span>
+        <?php the_content(','); ?>
+      </div>
   </article>
 <?php endwhile; endif; ?>
 </body>
