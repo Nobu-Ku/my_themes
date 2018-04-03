@@ -8,7 +8,7 @@ version: 1.0
 */
 
 body{
-  font-family:'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-family:'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
 }
 
 /*記事*/
@@ -20,7 +20,6 @@ article h1{
 
 /*記事の付加情報*/
 .postinfo{
-  margin-top: 15px;
   font-size: 14px;
 }
 
@@ -29,9 +28,11 @@ article h1{
   text-decoration: none;
 }
 
+
 .postinfo .postcat{
   margin-left: 20px;
 }
+
 
 .postinfo i{
   color:#888888;
@@ -44,4 +45,18 @@ article h1{
   color: #666;
   font-size: 12px;
   text-decoration: none;
+}
+
+.pagenav .old a {
+  float: left;
+}
+
+.pagenav .new a {
+  float: right;
+}
+
+.pagenav {
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
