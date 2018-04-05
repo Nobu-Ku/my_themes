@@ -50,6 +50,11 @@
       </span>
     </div>
     <?php endif; ?>
+    <div class="blogmenu">
+      <ul>
+        <?php dinamic_sidebar(); ?>
+      </ul>
+    </div>
   </div><!--container-->
 </body>
 </html>
